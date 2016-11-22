@@ -6,7 +6,7 @@ public class contigiousMinimumUnsorted {
         int startIndex = 0;
         int endIndex = A.length-1;
 
-        for(int i = 1; i < A.length;i++){
+        for(int i = 1; i < A.length; i++){
             if(A[i] < A[i-1]){
                 startIndex = i-1;
                 break;
