@@ -30,5 +30,6 @@ public class ArrayHopper {
             }
         else
             System.out.println("Failure");
+
     }
 }
