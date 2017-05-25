@@ -1,6 +1,7 @@
 /**
  * Created by abhinavdas on 1/12/17.
  */
+/*
 public class flipBits {
     public void flip()
     {
@@ -44,3 +45,4 @@ public class flipBits {
         System.out.println(num);
     }
 }
+*/
