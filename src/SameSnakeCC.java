@@ -23,10 +23,6 @@ public class SameSnakeCC {
             second.x = Integer.parseInt(points[2]);
             second.y = Integer.parseInt(points[3]);
 
-
-
-
-
         }
 
 
@@ -37,7 +33,7 @@ public class SameSnakeCC {
         Point[] vertices;
         Point[][] edges;
 
-        HashMap<String, Integer> 
+
     }
 
     static class Point
@@ -50,12 +46,8 @@ public class SameSnakeCC {
         {
             x = 0;
             y = 0;
-            neighbours = ;
+
         }
 
-        @Override
-        public boolean equals(Point p) {
-            return this.x==p.x ? this.y == p.y ?true : false : false;
-        }
     }
 }
